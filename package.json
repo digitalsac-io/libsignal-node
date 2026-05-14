@@ -1,16 +1,28 @@
 {
-  "name": "libsignal",
+  "name": "@digitalsac/libsignal-node",
   "version": "6.0.0",
-  "description": "Open Whisper Systems' libsignal for Node.js",
-  "repository": "WhiskeySockets/libsignal-node",
+  "description": "Open Whisper Systems' libsignal for Node.js (DigitalSac fork)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalsac-io/libsignal-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalsac-io/libsignal-node/issues"
+  },
+  "homepage": "https://github.com/digitalsac-io/libsignal-node#readme",
   "main": "index.js",
   "types": "index.d.ts",
   "keywords": [
     "signal",
     "whispersystems",
-    "crypto"
+    "crypto",
+    "digitalsac"
   ],
   "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "curve25519-js": "^0.0.4",
     "protobufjs": "^7.5.5"

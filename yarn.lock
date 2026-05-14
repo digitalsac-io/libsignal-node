@@ -23,6 +23,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@digitalsac/libsignal-node@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@digitalsac/libsignal-node@workspace:."
+  dependencies:
+    conventional-changelog-cli: "npm:^4.1.0"
+    curve25519-js: "npm:^0.0.4"
+    eslint: "npm:^9"
+    protobufjs: "npm:^7.5.5"
+    release-it: "npm:^20.0.1"
+  languageName: unknown
+  linkType: soft
+
 "@eslint-community/eslint-utils@npm:^4.8.0":
   version: 4.9.1
   resolution: "@eslint-community/eslint-utils@npm:4.9.1"
@@ -1919,18 +1931,6 @@ __metadata:
   checksum: 10c0/effb03cad7c89dfa5bd4f6989364bfc79994c2042ec5966cb9b95990e2edee5cd8969ddf42616a0373ac49fac1403437deaf6e9050fbbaa3546093a59b9ac94e
   languageName: node
   linkType: hard
-
-"libsignal@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "libsignal@workspace:."
-  dependencies:
-    conventional-changelog-cli: "npm:^4.1.0"
-    curve25519-js: "npm:^0.0.4"
-    eslint: "npm:^9"
-    protobufjs: "npm:^7.5.5"
-    release-it: "npm:^20.0.1"
-  languageName: unknown
-  linkType: soft
 
 "lines-and-columns@npm:^2.0.3":
   version: 2.0.4
